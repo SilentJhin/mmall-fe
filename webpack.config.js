@@ -2,11 +2,6 @@
 * @Author: Jhin
 * @Date:   2019-07-25 12:59:41
 * @Last Modified by:   Jhin
-<<<<<<< HEAD
-* @Last Modified time: 2019-08-23 15:36:38
-=======
-* @Last Modified time: 2019-08-23 14:41:52
->>>>>>> final
 */
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');

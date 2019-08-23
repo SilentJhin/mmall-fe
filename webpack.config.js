@@ -3,7 +3,7 @@
 * @Date:   2019-07-25 12:59:41
 * @Last Modified by:   Jhin
 <<<<<<< HEAD
-* @Last Modified time: 2019-08-17 14:22:32
+* @Last Modified time: 2019-08-23 15:36:38
 =======
 * @Last Modified time: 2019-08-23 14:41:52
 >>>>>>> final
@@ -60,11 +60,7 @@ var config = {
         // 存放路径
         path : __dirname + '/dist/',
         // 访问路径
-<<<<<<< HEAD
-        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.happymmall.com/mmall-fe/dist/',
-=======
         publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.mmall.store/mmall-fe/dist/',
->>>>>>> final
         filename : 'js/[name].js'
     },
     // 外部依赖声明
@@ -139,18 +135,7 @@ var config = {
     //         }
     //     }
     // },
-<<<<<<< HEAD
-    devServer: {
-        port: 8088,
-        inline: true,
-        proxy : {
-            '**/*.do' : {
-                target: 'http://test.happymmall.com',
-                changeOrigin : true
-            }
-        }
-    },
-=======
+
     // devServer: {
     //     port: 8088,
     //     inline: true,
@@ -161,7 +146,6 @@ var config = {
     //         }
     //     }
     // },
->>>>>>> final
 };
 // webpack-dev-server 前端开发服务器 启动后在文件改变时自动刷新服务器
 // 这样在谷歌浏览器里调试时就不用手动刷新

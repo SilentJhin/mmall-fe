@@ -55,7 +55,8 @@ var config = {
         // 存放路径
         path : __dirname + '/dist/',
         // 访问路径
-        publicPath : 'dev' === WEBPACK_ENV ? '/dist/' : '//s.mmall.store/mmall-fe/dist/',
+        publicPath : 'dev' === WEBPACK_ENV ? 
+        '/dist/' : '//s.mmall.store/mmall-fe/dist/',
         filename : 'js/[name].js'
     },
     // 外部依赖声明
